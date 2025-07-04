@@ -9,4 +9,4 @@ A calculator to help you maximize profits when selling to the auction house bot.
 5. Profit!
 
 
-#### Made with 🤍 by Phil
+###### Made with 🤍 by Phil
