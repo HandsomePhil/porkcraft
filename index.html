@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>WoW Auctionhouse Bot Calculator</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #1e1e1e;
+      color: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    .container {
+      background: #2e2e2e;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      max-width: 400px;
+      width: 100%;
+    }
+    h1 {
+      margin: 0;
+    }
+    h2 {
+      color: #bbbbbb;
+      margin-top: 10px;
+      margin-bottom: 32px;
+      font-size: 1rem;
+    }
+    h3 {
+      color: #bbbbbb;
+      text-align: center;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+      font-weight: normal;
+    }
+    .input-row {
+      display: flex;
+      gap: 0.5rem;
+    }
+    .input-group {
+      flex: 1;
+    }
+    input[type="number"] {
+      width: 100%;
+      padding: 1rem;
+      background: #444;
+      color: #fff;
+      border: 1px solid #666;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 2rem;
+      -moz-appearance: textfield;
+    }
+    input[type=number]::-webkit-outer-spin-button,
+    input[type=number]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    input[type="radio"] {
+      margin-right: 0.5rem;
+    }
+    .radio-group span.green {
+      color: #1eff00;
+    }
+    .radio-group span.blue {
+      color: #0070dd;
+    }
+    .radio-group span.purple {
+      color: #a335ee;
+    }
+    button {
+      margin-top: 32px;
+      padding: 1.25rem;
+      background-color: #333;
+      color: #fff;
+      border: 2px solid #fff;
+      border-radius: 4px;
+      cursor: pointer;
+      text-transform: uppercase;
+      width: 100%;
+      font-size: 1.2rem;
+      font-weight: normal;
+    }
+    button:hover {
+      background-color: #444;
+    }
+    .result {
+      margin-top: 0.5rem;
+      font-weight: bold;
+      color: #ffd100;
+      font-size: 2rem;
+      text-align: center;
+    }
+    .radio-group {
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>World of Porkcraft</h1>
+    <h2>Auction House Price Calculator</h2>
+
+    <div class="radio-group">
+      <label><input type="radio" name="multiplier" value="2.9" /> <span>White</span> (2.9)</label>
+      <label><input type="radio" name="multiplier" value="4.9" /> <span class="green">Green</span> (4.9)</label>
+      <label><input type="radio" name="multiplier" value="11.9" checked /> <span class="blue">Blue</span> (11.9)</label>
+      <label><input type="radio" name="multiplier" value="14.9" /> <span class="purple">Purple</span> (14.9)</label>
+    </div>
+
+    <div class="input-row">
+      <div class="input-group">
+        <label for="gold">Gold</label>
+        <input type="number" id="gold" min="0" value="0">
+      </div>
+
+      <div class="input-group">
+        <label for="silver">Silver</label>
+        <input type="number" id="silver" min="0" value="0">
+      </div>
+
+      <div class="input-group">
+        <label for="copper">Copper</label>
+        <input type="number" id="copper" min="0" value="0">
+      </div>
+    </div>
+
+    <h3 id="result-header" style="display: none;">List your item for</h3>
+    <div class="result" id="result"></div>
+
+    <button id="calcBtn" onclick="calculate()">Calculate</button>
+  </div>
+
+  <script>
+    function calculate() {
+      const gold = parseInt(document.getElementById('gold').value) || 0;
+      const silver = parseInt(document.getElementById('silver').value) || 0;
+      const copper = parseInt(document.getElementById('copper').value) || 0;
+
+      const multiplier = parseFloat(document.querySelector('input[name="multiplier"]:checked').value);
+
+      const totalCopper = gold * 10000 + silver * 100 + copper;
+      const resultCopper = totalCopper * multiplier;
+
+      const finalGold = Math.floor(resultCopper / 10000);
+      const finalSilver = Math.floor((resultCopper % 10000) / 100);
+      const finalCopper = Math.floor(resultCopper % 100);
+
+      document.getElementById('result').textContent = `${finalGold}g ${finalSilver}s ${finalCopper}c`;
+      document.getElementById('result-header').style.display = 'block';
+
+      const btn = document.getElementById("calcBtn");
+      btn.textContent = "Reset";
+      btn.onclick = reset;
+    }
+
+    function reset() {
+      document.getElementById('gold').value = 0;
+      document.getElementById('silver').value = 0;
+      document.getElementById('copper').value = 0;
+      document.getElementById('result').textContent = "";
+      document.getElementById('result-header').style.display = 'none';
+
+      const btn = document.getElementById("calcBtn");
+      btn.textContent = "Calculate";
+      btn.onclick = calculate;
+    }
+  </script>
+</body>
+</html>
