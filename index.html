@@ -9,7 +9,7 @@
       margin: 0;
     }
     body {
-      font-family: Arial, sans-serif;
+      font-family: Verdana,"Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
       background: #1e1e1e;
       color: #f0f0f0;
       display: flex;
@@ -30,12 +30,15 @@
     }
     h1 {
       margin: 0;
+      /* text-transform: uppercase; */
     }
     h2 {
       color: #bbbbbb;
       margin-top: 10px;
       margin-bottom: 32px;
       font-size: 1rem;
+      text-transform: uppercase;
+      font-weight: 400;
     }
     h3 {
       color: #bbbbbb;
@@ -44,6 +47,13 @@
       margin-bottom: 0.5rem;
       font-size: 0.9rem;
       font-weight: normal;
+    }
+    h4 {
+      margin-bottom: 10px;
+      font-weight: 400;
+      font-size: .75rem;
+      text-transform: uppercase;
+      color: #bbbbbb;
     }
     .input-row {
       display: flex;
@@ -71,6 +81,12 @@
     input[type="radio"] {
       margin-right: 0.5rem;
     }
+    .radio-group {
+      color: #bbbbbb;
+    }
+    .radio-group span.white {
+      color: white;
+    }
     .radio-group span.green {
       color: #1eff00;
     }
@@ -97,7 +113,7 @@
       background-color: #444;
     }
     .result {
-      margin-top: 0.5rem;
+      /* margin-top: 0.5rem; */
       font-weight: bold;
       color: #ffd100;
       font-size: 2rem;
@@ -112,14 +128,14 @@
   <div class="container">
     <h1>World of Porkcraft</h1>
     <h2>Auction House Pricing Calculator</h2>
-
+    <h4>Item Rarity</h4>
     <div class="radio-group">
-      <label><input type="radio" name="multiplier" value="2.9" /> <span>Common</span> (2.9)</label>
-      <label><input type="radio" name="multiplier" value="4.9" /> <span class="green">Uncommon</span> (4.9)</label>
-      <label><input type="radio" name="multiplier" value="11.9" checked /> <span class="blue">Rare</span> (11.9)</label>
-      <label><input type="radio" name="multiplier" value="14.9" /> <span class="purple">Epic</span> (14.9)</label>
+      <label><input type="radio" name="multiplier" value="2.9" /> <span class="white">Common</span> (x2.9)</label>
+      <label><input type="radio" name="multiplier" value="4.9" /> <span class="green">Uncommon</span> (x4.9)</label>
+      <label><input type="radio" name="multiplier" value="11.9" checked /> <span class="blue">Rare</span> (x11.9)</label>
+      <label><input type="radio" name="multiplier" value="14.9" /> <span class="purple">Epic</span> (x14.9)</label>
     </div>
-
+    <h4>Vendor Price</h4>
     <div class="input-row">
       <div class="input-group">
         <label for="gold">Gold</label>
@@ -137,10 +153,10 @@
       </div>
     </div>
 
+    <button id="calcBtn" onclick="calculate()">Calculate</button>
+
     <h3 id="result-header" style="display: none;">List your item for</h3>
     <div class="result" id="result"></div>
-
-    <button id="calcBtn" onclick="calculate()">Calculate</button>
   </div>
 
   <script>
@@ -160,7 +176,8 @@
 
       document.getElementById('result').textContent = `${finalGold}g ${finalSilver}s ${finalCopper}c`;
       document.getElementById('result-header').style.display = 'block';
-
+      
+      // ** RESET BUTTON FUNCTIONALITY **
       const btn = document.getElementById("calcBtn");
       btn.textContent = "Reset";
       btn.onclick = reset;
