@@ -23,8 +23,7 @@ Would you like to upgrade the textures and models of the in-game assets? Here's 
 2. Extract the contents of the zip file to your `...\Data\` folder.
 3. If you run into trouble, you can always read the `readme.txt` file included in the zip folder.
 
-### Large Address Aware 
-#### Windows
+### Large Address Aware (Windows)
 Experiencing crashes in large cities like Shattrath or Dalaran? Here's how to fix that:
 1. Download the [Large Address Aware.zip](https://cdn.discordapp.com/attachments/1363880440938762453/1410364158280470622/Large_Address_Aware.zip?ex=6964b43a&is=696362ba&hm=acf801d587b71f031a222a681edaa51e6f9248a9f42fdbd83764622f058c34f1&) file.
 2. Unzip the contents of the file to your installation folder.
@@ -34,7 +33,7 @@ Experiencing crashes in large cities like Shattrath or Dalaran? Here's how to fi
     2. Step 2: Check the box.
     3. Step 3: Click save.
 
-#### Linux
+### Large Address Aware (Linux)
 Experiencing crashes in large cities like Shattrath or Dalaran? Do you also worship at the alter of the Penguin? Ok, well here's how to fix that for our Linux nerds:
 1. Navigate to System Options under the launch configuration.
 2. Click the `Enable Feral GameMode` toggle.
@@ -47,6 +46,13 @@ Have you noticed when you go into Naxxramas there is a near constant sound clip 
 
 ### Full screen (Windows)
 If you're unable to alt-tab or run the client in windowed mode, here's the fix:
+1. Navigate to the installation folder for the game.
+2. Open `...\WTF\Config.wtf` with a text editor (like notepad.exe) and add the following at the bottom:
+```
+SET gxWindow "1"
+SET gxMaximize "1"
+```
+3. Save and close the file.
 
 ## Bots
 - There are 2,000 bots split evenly amongst Alliance and Horde.
