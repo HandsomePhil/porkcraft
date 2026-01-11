@@ -48,52 +48,46 @@ Have you noticed when you go into Naxxramas there is a near constant sound clip 
 If you're unable to alt-tab or run the client in windowed mode, here's the fix:
 1. Navigate to the installation folder for the game.
 2. Open `...\WTF\Config.wtf` with a text editor (like notepad.exe) and add the following at the bottom:
+
 ```
 SET gxWindow "1"
 SET gxMaximize "1"
 ```
 3. Save and close the file.
 
-## Bots
-- There are 2,000 bots split evenly amongst Alliance and Horde.
-- Raid bots have a suffix in their name that denotes their role.
-    - botnameTANK is a Tank
-    - botnameDPS is a Damage dealer
-    - botnameHLR is a Healer
-- Feel free to bring the bots when questing or running dungeons
-- We do ask that you don't bring the bots into Raids outside of raid times. This ensures their can be saved for group raiding times that are planned by the server admins.
-- PVP battlegrounds are enabled with bots
-
-## Addons
-text
-
-## Auction House
-1. Auction House lists about 20,000 Horde, 5,000 Alliance, 5,000 neutral items daily
-2. 
-
-## Custom Server Rules
+## Porkcraft Server Configurations
+### Custom Server Rules
+- Instant mail delivery
 - Free transmogs
-- Instant flight paths (optional, can be toggled on/off at any Flightmaster)
+- Instant flight paths (optional and can be toggled on/off at any Flightmaster)
 - No Hearthstone timers
 - Free talent respecs
 - Shared mounts and pets between alts
 - Server restarts daily at 4am ET
 - Raids and Arenas reset on Fridays at 6am ET
-- Dungeons reset at 3am daily
+- Heroic dungeons reset daily at 3am ET
 - Instant dungeon/raid resets with Cromie located in Orgrimmar by the bank, and Dalarn by the well.
-- Free Transmogs Vendor in front of 
-- Instant logout
-- All new characters start with 1 gold
-- Instant mail delivery
+- Free Transmogs vendor next to Cromie
+- No timer on `/camp` or `/logout` commands
+- All newly created characters start with 1 gold
 
-- Auctionhousebot 
+### Bots
+- There are 2,000 bots split evenly amongst Alliance and Horde.
+- Raid bots have a suffix in their name that denotes their role.
+    - botnameTANK is a tank
+    - botnameDPS is a damage dealer
+    - botnameHLR is a healer
+- Feel free to invite the bots when questing or running dungeons.
+- We do ask that you don't bring the bots into 25-man Wrath of the Lich King raid.
+- Bots are able to join and particpiate in Battlegrounds and Arenas.
 
-### How it works
-1. Select the rarity of the item you want to list for auction.
-2. Input the vendor price of the item.
-3. Press calculate.
-4. List value for the item on the Auction house to receive maximum value.
-5. Profit!
+### Auction House
+- Auctionhousebot will populate the auction house daily with new random items.
+- 20,000 items daily on the Horde auction house.
+- 5,000 items daily on the Alliance auction house.
+- 5,000 items daily at the neutral auction house.
 
+## Addons
+Chromiecraft works alongside [Felbite](https://felbite.com/) to ensure all your addon needs are met. These include Chromiecraft-specific addons, such as the Deadly Boss Mods designed to work with our tuned raid bosses!
 
-###### Made with 🤍 by Phil
+###### Made with 🤍 by Phil + James
