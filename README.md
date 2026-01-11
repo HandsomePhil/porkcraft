@@ -22,6 +22,7 @@ Would you like to upgrade the textures and models of the in-game assets? Here's 
 2. Open the installation folder you created for the game.
 2. Extract the contents of the zip file to your `installation folder\Data\` folder.
 3. If you run into trouble, you can always read the `readme.txt` file included in the zip folder.
+
 ### Large Address Aware (Windows)
 Experiencing crashes in large cities like Shattrath or Dalaran? Here's the fix:
 1. Download the [Large Address Aware.zip](https://cdn.discordapp.com/attachments/1363880440938762453/1410364158280470622/Large_Address_Aware.zip?ex=6964b43a&is=696362ba&hm=acf801d587b71f031a222a681edaa51e6f9248a9f42fdbd83764622f058c34f1&) file.
