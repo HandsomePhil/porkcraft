@@ -1,18 +1,18 @@
 # World of Porkcraft
 This guide is designed to help you install, configure and connect to the private World of Porkcraft: Wrath of the Lich King server. Keeping all this documentation on Discord was convenient, however it wasn't easy for new players. Please note this is not a server that is open the public, and you must have an account created for you by the server's administrator.
 
-## Installation
+## Setup
+### Installation
 1. Download the [ChromieCraft 3.3.5a](https://www.chromiecraft.com/en/downloads/) client for your operating system.
 2. Extract the contents of zip file on your computer.
-> [!TIP]
-> If you don't have the retail version of World of Warcraft, you can install the contents of that zip here: `C:\Program Files\World of Warcraft\`.
+3. Tip: If you don't have the retail version of World of Warcraft, you can create a new folder under your Program Files folder. Once complete it should look like this: `C:\Program Files\World of Warcraft\`.
 
-## Configuration
-Now we'll need to configure your client to connect to the Porkcraft server.
+### Configuration
+Next we'll need to configure your client to connect to the Porkcraft server.
 1. Open the installation folder you created for the game.
 2. Navigate to `...\Data\enUS\realmlist.wtf`.
-3. If it's not present you may need to create this file.
-4. Open realmlist.wtf with a text editor (like notepad) and add the following: `set realmlist porkchopexpress.servebeer.com`.
+3. If you don't see `realmlist.wtf` may need to create the file.
+4. Open realmlist.wtf with a text editor (like notepad.exe) and add the following: `set realmlist porkchopexpress.servebeer.com`.
 5. Save the file and close it.
 
 ## Recommended Fixes
@@ -20,22 +20,32 @@ Now we'll need to configure your client to connect to the Porkcraft server.
 Would you like to upgrade the textures and models of the in-game assets? Here's how you do it:
 1. Download the [ChromieCraft HD Patch](https://www.chromiecraft.com/en/downloads/).
 2. Open the installation folder you created for the game.
-2. Extract the contents of the zip file to your `installation folder\Data\` folder.
+2. Extract the contents of the zip file to your `...\Data\` folder.
 3. If you run into trouble, you can always read the `readme.txt` file included in the zip folder.
 
 ### Large Address Aware (Windows)
-Experiencing crashes in large cities like Shattrath or Dalaran? Here's the fix:
+Experiencing crashes in large cities like Shattrath or Dalaran? Here's how to fix that:
 1. Download the [Large Address Aware.zip](https://cdn.discordapp.com/attachments/1363880440938762453/1410364158280470622/Large_Address_Aware.zip?ex=6964b43a&is=696362ba&hm=acf801d587b71f031a222a681edaa51e6f9248a9f42fdbd83764622f058c34f1&) file.
 2. Unzip the contents of the file to your installation folder.
 3. Create a copy of the `wow.exe` file, renaming it to `wow_backup.exe`.
 4. Launch the `Large Address Aware.exe` file.
-    - Step 1: Click the button with three periods, and navigate to `installation folder\wow.exe`. Click `wow.exe` and click open.
-    - Step 2: Check the box.
-    - Step 3: Click save.
+    1. Under Step 1, click the button with three periods, and navigate to your client installation folder and select `wow.exe` and click open.
+    2. Step 2: Check the box.
+    3. Step 3: Click save.
 
-### Sound Mod Fix for Naxxramas
-3. Sound Mod for Naxx
-### Full screen 
+### Large Address Aware (Linux)
+Experiencing crashes in large cities like Shattrath or Dalaran? Do you also worship at the alter of the Penguin? Ok, well here's how to fix that for our Linux nerds:
+1. Navigate to System Options under the launch configuration.
+2. Click the `Enable Feral GameMode` toggle.
+3. Under Environment variables click Add, and create a key named `LARGE_ADDRESS_AWARE` with a value of 1.
+
+### Sound Mod Fix for Naxxramas (windows)
+Have you noticed when you go into Naxxramas there is a near constant sound clip of wailing tortured souls playing in the background? Here's how you fix that:
+1. Download the [sound.zip](https://cdn.discordapp.com/attachments/1363880440938762453/1408818669877858334/Sound.zip?ex=696503a1&is=6963b221&hm=1f76433aefef3ffc6a2e42921dbbb068b390985bbbb7b6b7862c3ed5120500f9&) file.
+2. Unzip the contents of the file into your `...\Data\` folder.
+
+### Full screen (Windows)
+If you're unable to alt-tab or run the client in windowed mode, here's the fix:
 
 ## Bots
 - There are 2,000 bots split evenly amongst Alliance and Horde.
