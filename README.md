@@ -9,20 +9,32 @@ This guide is designed to help you install, configure and connect to the private
 
 ## Configuration
 Now we'll need to configure your client to connect to the Porkcraft server.
-1. Open the installation folder for the ChromieCraft server.
-2. Navigate to `[Install folder]\Data\enUS\realmlist.wtf`.
+1. Open the installation folder you created for the game.
+2. Navigate to `...\Data\enUS\realmlist.wtf`.
 3. If it's not present you may need to create this file.
 4. Open realmlist.wtf with a text editor (like notepad) and add the following: `set realmlist porkchopexpress.servebeer.com`.
 5. Save the file and close it.
 
 ## Recommended Fixes
 ### HD Patch
+Would you like to upgrade the textures and models of the in-game assets? Here's how you do it:
 1. Download the [ChromieCraft HD Patch](https://www.chromiecraft.com/en/downloads/).
-2. 
-### Large Address Aware
-2. Large Address Aware
+2. Open the installation folder you created for the game.
+2. Extract the contents of the zip file to your `installation folder\Data\` folder.
+3. If you run into trouble, you can always read the `readme.txt` file included in the zip folder.
+### Large Address Aware (Windows)
+Experiencing crashes in large cities like Shattrath or Dalaran? Here's the fix:
+1. Download the [Large Address Aware.zip](https://cdn.discordapp.com/attachments/1363880440938762453/1410364158280470622/Large_Address_Aware.zip?ex=6964b43a&is=696362ba&hm=acf801d587b71f031a222a681edaa51e6f9248a9f42fdbd83764622f058c34f1&) file.
+2. Unzip the contents of the file to your installation folder.
+3. Create a copy of the `wow.exe` file, renaming it to `wow_backup.exe`.
+4. Launch the `Large Address Aware.exe` file.
+    - Step 1: Click the button with three periods, and navigate to `installation folder\wow.exe`. Click `wow.exe` and click open.
+    - Step 2: Check the box.
+    - Step 3: Click save.
+
 ### Sound Mod Fix for Naxxramas
 3. Sound Mod for Naxx
+### Full screen 
 
 ## Bots
 - There are 2,000 bots split evenly amongst Alliance and Horde.
