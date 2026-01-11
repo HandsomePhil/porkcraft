@@ -1,6 +1,8 @@
 # World of Porkcraft
 This guide is designed to help you install, configure and connect to the private World of Porkcraft: Wrath of the Lich King server. Keeping all this documentation on Discord was convenient, however it wasn't easy for new players. Please note this is not a server that is open the public, and you must have an account created for you by the server's administrator.
 
+Understand that you proceed at your own risk, and the server administration takes no responsibility for errors, broken links, or misbehaving computers.
+
 ## Setup
 ### Installation
 1. Download the [ChromieCraft 3.3.5a](https://www.chromiecraft.com/en/downloads/) client for your operating system.
@@ -88,6 +90,8 @@ SET gxMaximize "1"
 - 5,000 items daily at the neutral auction house.
 
 ## Addons
-Chromiecraft works alongside [Felbite](https://felbite.com/) to ensure all your addon needs are met. These include Chromiecraft-specific addons, such as the Deadly Boss Mods designed to work with our tuned raid bosses!
+You can download WOTLK specified addons for Chromiecraft at [Felbite.com](https://felbite.com/). Please note that addons may not work or cause errors within your game client. No support from Porkcraft admins is provided for addons.
 
-###### Made with 🤍 by Phil + James
+Addons are installed in the `...\Interface\AddOns` folder.
+
+###### Made with 🤍 by James + Phil
