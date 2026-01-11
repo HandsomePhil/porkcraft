@@ -16,12 +16,12 @@ Now we'll need to configure your client to connect to the Porkcraft server.
 5. Save the file and close it.
 
 ## Recommended Fixes
-## HD Patch
+### HD Patch
 1. Download the [ChromieCraft HD Patch](https://www.chromiecraft.com/en/downloads/).
 2. 
-## Large Address Aware
+### Large Address Aware
 2. Large Address Aware
-## Sound Mod Fix for Naxxramas
+### Sound Mod Fix for Naxxramas
 3. Sound Mod for Naxx
 
 ## Bots
