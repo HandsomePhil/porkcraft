@@ -88,8 +88,15 @@ SET gxMaximize "1"
 - 20,000 items daily on the Horde auction house.
 - 5,000 items daily on the Alliance auction house.
 - 5,000 items daily at the neutral auction house.
+- Auctionhousebot will purchase items listed on the auction house daily at 4:10pm ET using the following formula:
+    - Common items listed at x3 their vendor price
+    - Uncommon items listed at x5 their vendor price
+    - Rare items listed at x12 their vendor price
+    - Epic items listed at x15 their vendor price
+- We have created a [calculator](handsomephil.github.io/porkcraft/calculator) to help you determine the price for you items to ensure they are purchased by the Auctionhousebot.
+- We have also created an [addon](https://cdn.discordapp.com/attachments/1363880440938762453/1392689852507488396/aux-addon.zip?ex=6965013f&is=6963afbf&hm=fc5c8e84431dda8f76e08636a025185fbf59788e66b14346045704f947c20da7&) that will automatically list the item at the appropriate price.
 
-## Addons
+### Addons
 You can download WOTLK specified addons for Chromiecraft at [Felbite.com](https://felbite.com/). Please note that addons may not work or cause errors within your game client. No support from Porkcraft admins is provided for addons.
 
 Addons are installed in the `...\Interface\AddOns` folder.
