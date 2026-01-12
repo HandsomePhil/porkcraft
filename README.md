@@ -111,6 +111,9 @@ The World of Porkcraft has some custom quality of life improvements that may com
 - All newly created characters start with 1 gold
 
 ### Bots
+- The server uses the [Playerbot Mod](https://github.com/mod-playerbots/mod-playerbots) to populate the world with bots that mimic human behavior.
+- You can invite the bots to groups and they should function similarly to real humans.
+- A full list of commands the bots accept can be found in the [Playerbots Commands Documentation](https://github.com/mod-playerbots/mod-playerbots/wiki/Playerbot-Commands) on GitHub.
 - There are 2,000 bots split evenly between Alliance and Horde.
 - Raid bots have a suffix in their name that denotes their role.
     - botnameTANK is a tank
