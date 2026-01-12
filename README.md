@@ -3,6 +3,7 @@ This guide is designed to help you install, configure, and connect your game cli
 
 > [!CAUTION]
 > Understand that you proceed at your own risk. We takes no responsibility for errors, broken links,  misbehaving computers, or lost data. 
+<br/>
 
 ## Table of Contents
 - [Setup](#setup)
@@ -20,27 +21,30 @@ This guide is designed to help you install, configure, and connect your game cli
     - [Bots](#bots)
     - [Auction House](#auction-house)
 
+<br/>
+
 ## Setup
 ### Installation
 1. Download the [ChromieCraft 3.3.5a](https://www.chromiecraft.com/en/downloads/) client for your operating system.
 2. Extract the contents of the zip file on your computer.
-
-<!-- > [!TIP]
-> If you don't have the retail version of World of Warcraft, you can create a new folder under your Program Files folder. Once complete, it should look like this: `C:\Program Files\World of Porkcraft\`. -->
 
 ### Configuration
 Next, we'll need to configure your client to connect to the Porkcraft server.
 1. Open the installation folder you created for the game.
 2. Navigate to `...\Data\enUS\realmlist.wtf`.
 3. If you don't see `realmlist.wtf`, may need to create the file.
-4. Open `realmlist.wtf` with a text editor (like notepad.exe) and add the following: `set realmlist porkchopexpress.servebeer.com`.
-5. Save the file and close it.
+4. Open `realmlist.wtf` with a text editor (like notepad.exe) and add the following:
+    ````
+    set realmlist porkchopexpress.servebeer.com
+    ````
+6. Save the file and close it.
 
 ### Login
 You will login to the client using your provided username and password.
 
-## Recommended Fixes
+<br/>
 
+## Recommended Fixes
 > [!IMPORTANT]
 > Do not edit files while the game is running. Fully logout and close the application before proceeding.
 
@@ -84,6 +88,8 @@ SET gxWindow "1"
 SET gxMaximize "1"
 ```
 3. Save and close the file.
+
+<br/>
 
 ## Server Configuration
 The World of Porkcraft has some custom quality of life improvements that may come as a surprise if you've previously played retail versions of the game.
@@ -129,5 +135,7 @@ The World of Porkcraft has some custom quality of life improvements that may com
 You can download WOTLK-specific addons for Chromiecraft at [felbite.com](https://felbite.com/). Please note that addons may not work or cause errors within your game client. No support for addons is provided by Porkcraft admins.
 
 Addons are installed in the `...\Interface\AddOns` folder.
+
+<br/>
 
 ###### Made with 🤍 by James + Phil
