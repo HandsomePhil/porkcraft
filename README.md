@@ -104,7 +104,7 @@ The World of Porkcraft has some custom quality of life improvements that may com
 - Server restarts daily at 4:00 AM ET
 - Raids and arenas reset on Fridays at 6:00 AM ET
 - Heroic dungeons reset daily at 3:00 AM ET
-- Instant dungeon/raid resets with Cromie NPC located in Orgrimmar by the bank, and Dalaran by the well.
+- Instant heroic dungeon and raid resets are available from the Cromie NPC located in Orgrimmar by the bank, and Dalaran by the well.
 - Free transmogs vendor NPC can be found near Cromie in Orgrimmar by the bank, and Dalaran by the well.
 - No timer on `/camp` or `/logout` commands
 - All newly created characters start with 1 gold
