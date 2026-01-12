@@ -120,7 +120,7 @@ The World of Porkcraft has some custom quality of life improvements that may com
     - botnameDPS is a damage dealer
     - botnameHLR is a healer
 - Feel free to invite the bots when questing or running dungeons.
-- We do ask that you don't bring the bots into 25-man Wrath of the Lich King raids.
+- Because the bots are used to help fill out raid groups with neccessary roles; we ask that you don't bring the bots into 25-man Wrath of the Lich King raids at this time.
 - Bots are able to join and participate in Battlegrounds and Arenas.
 
 ### Auction House
