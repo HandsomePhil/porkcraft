@@ -2,7 +2,7 @@
 This guide is designed to help you install, configure, and connect your game client to the private World of Porkcraft server. Keeping all this documentation on Discord was convenient; however, it wasn't easy for new players. Please note this is not a server that is open to the public, and you must have an account created for you by the server's administrator.
 
 > [!CAUTION]
-> Understand that you proceed at your own risk. We takes no responsibility for errors, broken links,  misbehaving computers, or lost data. 
+> Understand that you proceed at your own risk. We takes no responsibility for errors, broken links, misbehaving computers, or lost data. 
 <br/>
 
 ## Table of Contents
@@ -20,10 +20,12 @@ This guide is designed to help you install, configure, and connect your game cli
     - [Custom Rules](#custom-rules)
     - [Bots](#bots)
     - [Auction House](#auction-house)
+- [Addons](#addons)
 
 <br/>
 
 ## Getting Started
+These steps will walk you through installing the client, configuring it for the Porkcraft server, and logging in for the first time.
 ### Installation
 1. Download the [ChromieCraft 3.3.5a](https://www.chromiecraft.com/en/downloads/) client for your operating system.
 2. Extract the contents of the zip file on your computer.
@@ -32,7 +34,7 @@ This guide is designed to help you install, configure, and connect your game cli
 Next, we'll need to configure your client to connect to the Porkcraft server.
 1. Open the installation folder you created for the game.
 2. Navigate to `...\Data\enUS\realmlist.wtf`.
-3. If you don't see `realmlist.wtf`, may need to create the file.
+3. If you don't see a `realmlist.wtf` file, may need to create it.
 4. Open `realmlist.wtf` with a text editor (like notepad.exe) and add the following:
 
     ````
@@ -42,11 +44,12 @@ Next, we'll need to configure your client to connect to the Porkcraft server.
 
 ### Login
 1. Launch the `wow.exe` file
-2. Login to the client using your provided username and password.
+2. Log in to the client using your provided username and password.
 
 <br/>
 
 ## Recommended Fixes
+These fixes are optional unless otherwise noted, but are strongly recommended for stability and quality of life.
 > [!IMPORTANT]
 > Do not edit or add files while the game is running. Fully logout and close the application before proceeding.
 
@@ -69,11 +72,12 @@ Experiencing crashes in large cities like Shattrath or Dalaran? Here's how to fi
     3. Step 3: Click save.
 
 ### Large Address Aware (Linux)
-Experiencing crashes in large cities like Shattrath or Dalaran? Do you also worship at the altar of the Penguin? Ok, here's how to fix that for our Linux nerds:
-1. Navigate to System Options under the launch configuration.
-2. Click the `Enable Feral GameMode` toggle.
-3. Under Environment variables, click Add
-4. Create a key named `LARGE_ADDRESS_AWARE` with a value of 1.
+Experiencing crashes in large cities like Shattrath or Dalaran? Do you also worship at the altar of the Penguin? No worries — here’s how to fix that on Linux:
+1. Open your Linux WoW client launch configuration.
+2. Navigate to **System Options**.
+3. Enable `Feral GameMode`.
+4. Under **Environment Variables**, click **Add**.
+5. Create a variable named `LARGE_ADDRESS_AWARE` with a value of `1`.
 
 ### Sound Mod Fix for Naxxramas
 Have you noticed that when you go into Naxxramas there is a near-constant sound clip of wailing tortured souls playing in the background? Here's how you fix that:
@@ -120,7 +124,7 @@ The World of Porkcraft has some custom quality of life improvements that may com
     - botnameDPS is a damage dealer
     - botnameHLR is a healer
 - Feel free to invite the bots when questing or running dungeons.
-- Because the bots are used to help fill out raid groups with neccessary roles; we ask that you don't bring the bots into 25-man Wrath of the Lich King raids at this time.
+- Because the bots are used to help fill out raid groups with necessary roles; we ask that you don't bring the bots into 25-man Wrath of the Lich King raids at this time.
 - Bots are able to join and participate in Battlegrounds and Arenas.
 
 ### Auction House
@@ -133,10 +137,12 @@ The World of Porkcraft has some custom quality of life improvements that may com
     - Uncommon items listed at x5 their vendor price
     - Rare items listed at x12 their vendor price
     - Epic items listed at x15 their vendor price
-- We have created a [calculator](https://handsomephil.github.io/porkcraft/calculator) to help you determine the price for you items to ensure they are purchased by the AuctionHouseBot.
+- We have created a [calculator](https://handsomephil.github.io/porkcraft/calculator) to help you determine the price for your items to ensure they are purchased by the AuctionHouseBot.
 - We have also created an [addon](https://cdn.discordapp.com/attachments/1363880440938762453/1392689852507488396/aux-addon.zip?ex=6965013f&is=6963afbf&hm=fc5c8e84431dda8f76e08636a025185fbf59788e66b14346045704f947c20da7&) that will automatically list items at the appropriate price.
 
-### Addons
+<br/>
+
+## Addons
 You can download WOTLK-specific addons for Chromiecraft at [felbite.com](https://felbite.com/). Please note that addons may not work or cause errors within your game client. No support for addons is provided by Porkcraft admins.
 
 Addons are installed in the `...\Interface\AddOns` folder.
