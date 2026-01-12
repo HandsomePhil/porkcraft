@@ -1,13 +1,32 @@
 # World of Porkcraft
-This guide is designed to help you install, configure, and connect to the private World of Porkcraft: Wrath of the Lich King server. Keeping all this documentation on Discord was convenient; however, it wasn't easy for new players. Please note this is not a server that is open to the public, and you must have an account created for you by the server's administrator.
+This guide is designed to help you install, configure, and connect your game client to the private World of Porkcraft server. Keeping all this documentation on Discord was convenient; however, it wasn't easy for new players. Please note this is not a server that is open to the public, and you must have an account created for you by the server's administrator.
 
-Understand that you proceed at your own risk. We takes no responsibility for errors, broken links,  misbehaving computers, or lost data.
+> [!CAUTION]
+> Understand that you proceed at your own risk. We takes no responsibility for errors, broken links,  misbehaving computers, or lost data. 
+
+## Table of Contents
+- [Setup](#setup)
+    - [Installation](#installation)
+    - [Configuration](#configuration)
+    - [Login](#login)
+- [Recommend Fixes](#recommended-fixes)
+    - [HD Patch](#hd-patch)
+    - [Large Address Aware (Windows)](#large-address-aware-windows)
+    - [Large Address Aware (Linux)](#large-address-aware-linux)
+    - [Sound Mod Fix for Naxxramas](#sound-mod-fix-for-naxxramas)
+    - [Full-Screen Windowed Mode Fix](#full-screen-windowed-mode-fix)
+- [Server Configuration](#server-configuration)
+    - [Custom Rules](#custom-rules)
+    - [Bots](#bots)
+    - [Auction House](#auction-house)
 
 ## Setup
 ### Installation
 1. Download the [ChromieCraft 3.3.5a](https://www.chromiecraft.com/en/downloads/) client for your operating system.
 2. Extract the contents of the zip file on your computer.
-3. Tip: If you don't have the retail version of World of Warcraft, you can create a new folder under your Program Files folder. Once complete, it should look like this: `C:\Program Files\World of Warcraft\`.
+
+<!-- > [!TIP]
+> If you don't have the retail version of World of Warcraft, you can create a new folder under your Program Files folder. Once complete, it should look like this: `C:\Program Files\World of Porkcraft\`. -->
 
 ### Configuration
 Next, we'll need to configure your client to connect to the Porkcraft server.
@@ -17,14 +36,21 @@ Next, we'll need to configure your client to connect to the Porkcraft server.
 4. Open `realmlist.wtf` with a text editor (like notepad.exe) and add the following: `set realmlist porkchopexpress.servebeer.com`.
 5. Save the file and close it.
 
+### Login
+You will login to the client using your provided username and password.
+
 ## Recommended Fixes
+
+> [!IMPORTANT]
+> Do not edit files while the game is running. Fully logout and close the application before proceeding.
+
 ### HD Patch
 Would you like to upgrade the textures and models of the in-game assets? Here's how you do it:
 1. Download the [ChromieCraft HD Patch](https://www.chromiecraft.com/en/downloads/).
 2. Open the installation folder you created for the game.
 3. Extract the contents of the zip file to your `...\Data\` folder.
 4. If you run into trouble, you can always read the `readme.txt` file included in the zip folder.
-5. Please note that if you install the HD Patch, you will need to follow the [Large Address Aware](#large-address-aware-windows) instructions below.
+5. Please note that if you install this HD Patch, you will need to follow the [Large Address Aware](#large-address-aware-windows) instructions below to prevent game client crashes when entering large cities like Shattrath or Dalaran.
 
 ### Large Address Aware (Windows)
 Experiencing crashes in large cities like Shattrath or Dalaran? Here's how to fix that:
@@ -43,13 +69,13 @@ Experiencing crashes in large cities like Shattrath or Dalaran? Do you also wors
 3. Under Environment variables, click Add
 4. Create a key named `LARGE_ADDRESS_AWARE` with a value of 1.
 
-### Sound Mod Fix for Naxxramas (windows)
+### Sound Mod Fix for Naxxramas
 Have you noticed that when you go into Naxxramas there is a near-constant sound clip of wailing tortured souls playing in the background? Here's how you fix that:
 1. Download the [sound.zip](https://cdn.discordapp.com/attachments/1363880440938762453/1408818669877858334/Sound.zip?ex=696503a1&is=6963b221&hm=1f76433aefef3ffc6a2e42921dbbb068b390985bbbb7b6b7862c3ed5120500f9&) file.
 2. Unzip the contents of the file into your `...\Data\` folder.
 
-### Full screen (Windows)
-If you're unable to Alt-Tab or run the client in windowed mode, here's the fix:
+### Full-Screen Windowed Mode Fix
+If you're unable to Alt-Tab or run the client in full-screen windowed mode, here's the fix:
 1. Navigate to the installation folder for the game.
 2. Open `...\WTF\Config.wtf` with a text editor (like notepad.exe) and add the following lines at the bottom:
 
@@ -59,19 +85,20 @@ SET gxMaximize "1"
 ```
 3. Save and close the file.
 
-## Porkcraft Server Configurations
-### Custom Server Rules
+## Server Configuration
+The World of Porkcraft has some custom quality of life improvements that may come as a surprise if you've previously played retail versions of the game.
+
+### Custom Rules
 - Instant mail delivery
-- Free transmogs
-- Instant flight paths (optional and can be toggled on/off at any Flight Master)
+- Instant travel via flight paths (optional and can be toggled on/off at any Flight Master)
 - No Hearthstone timers
 - Free talent respecs
-- Shared mounts and pets between alts
+- Shared mounts and pets between characters
 - Server restarts daily at 4:00 AM ET
 - Raids and arenas reset on Fridays at 6:00 AM ET
 - Heroic dungeons reset daily at 3:00 AM ET
-- Instant dungeon/raid resets with Cromie located in Orgrimmar by the bank, and Dalaran by the well.
-- Free transmogs vendor next to Cromie
+- Instant dungeon/raid resets with Cromie NPC located in Orgrimmar by the bank, and Dalaran by the well.
+- Free transmogs vendor NPC can be found near Cromie in Orgrimmar by the bank, and Dalaran by the well.
 - No timer on `/camp` or `/logout` commands
 - All newly created characters start with 1 gold
 
@@ -87,10 +114,10 @@ SET gxMaximize "1"
 
 ### Auction House
 - AuctionHouseBot will populate the auction house daily with new random items.
-- 20,000 items daily on the Horde auction house.
-- 5,000 items daily on the Alliance auction house.
-- 5,000 items daily at the neutral auction house.
-- AuctionHouseBot will purchase items listed on the auction house daily at 4:10PM ET using the following formula:
+    - 20,000 items daily on the Horde auction house.
+    - 5,000 items daily on the Alliance auction house.
+    - 5,000 items daily at the neutral auction house.
+- AuctionHouseBot will purchase items listed on the auction house daily at 12:10AM ET and 2:10PM ET using the following formula:
     - Common items listed at x3 their vendor price
     - Uncommon items listed at x5 their vendor price
     - Rare items listed at x12 their vendor price
