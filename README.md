@@ -54,26 +54,26 @@ These fixes are optional unless otherwise noted, but are strongly recommended fo
 > Do not edit or add files while the game is running. Fully logout and close the application before proceeding.
 
 ### HD Patch
-Would you like to upgrade the textures and models of the in-game assets? Here's how you do it:
+Would you like to upgrade the textures and models of the in-game assets? Here's how:
 1. Download the [ChromieCraft HD Patch](https://www.chromiecraft.com/en/downloads/).
-2. Open the installation folder you created for the game.
-3. Extract the contents of the zip file to your `...\Data\` folder.
-4. If you run into trouble, you can always read the `readme.txt` file included in the zip folder.
-5. Please note that if you install this HD Patch, you will need to follow the [Large Address Aware](#large-address-aware-windows) instructions below to prevent game client crashes when entering large cities like Shattrath or Dalaran.
+2. Open your game installation folder.
+3. Extract the contents of the zip file to `...\Data\`.
+4. If you run into trouble, read the included `readme.txt`.
+5. Important: After installing the HD Patch, follow the [Large Address Aware](#large-address-aware-windows) instructions below to prevent crashes in large cities like Shattrath or Dalaran.
 
 ### Large Address Aware (Windows)
 Experiencing crashes in large cities like Shattrath or Dalaran? Here's how to fix that:
 1. Download the [Large Address Aware.zip](https://cdn.discordapp.com/attachments/1363880440938762453/1410364158280470622/Large_Address_Aware.zip?ex=6964b43a&is=696362ba&hm=acf801d587b71f031a222a681edaa51e6f9248a9f42fdbd83764622f058c34f1&) file.
-2. Unzip the contents of the file to your installation folder.
-3. Create a copy of the `wow.exe` file, renaming it to `wow_backup.exe`.
+2. Unzip the contents into to your installation folder.
+3. Make a backup `wow.exe` by copying it and renaming the copy `wow_backup.exe`.
 4. Launch the `Large Address Aware.exe` file.
-    1. Under Step 1, click the button with three dots, and navigate to your client installation folder and select `wow.exe`, and click open.
-    2. Step 2: Check the box.
-    3. Step 3: Click save.
+    1. Under Step 1, click the three-dot button, navigate to `wow.exe`, and click **Open**.
+    2. Under Step 2: Check the box.
+    3. Under Step 3: Click **Save**.
 
 ### Large Address Aware (Linux)
 Experiencing crashes in large cities like Shattrath or Dalaran? Do you also worship at the altar of the Penguin? No worries — here’s how to fix that on Linux:
-1. Open your Linux WoW client launch configuration.
+1. Open your WoW client launch configuration.
 2. Navigate to **System Options**.
 3. Enable `Feral GameMode`.
 4. Under **Environment Variables**, click **Add**.
@@ -120,9 +120,9 @@ The World of Porkcraft has some custom quality of life improvements that may com
 - A full list of commands the bots accept can be found in the [Playerbots Commands Documentation](https://github.com/mod-playerbots/mod-playerbots/wiki/Playerbot-Commands) on GitHub.
 - There are 2,000 bots split evenly between Alliance and Horde.
 - Raid bots have a suffix in their name that denotes their role.
-    - botnameTANK is a tank
-    - botnameDPS is a damage dealer
-    - botnameHLR is a healer
+    - `botnameTANK` → tank
+    - `botnameDPS` → damage dealer
+    - `botnameHLR` → healer
 - Feel free to invite the bots when questing or running dungeons.
 - Because the bots are used to help fill out raid groups with necessary roles; we ask that you don't bring the bots into 25-man Wrath of the Lich King raids at this time.
 - Bots are able to join and participate in Battlegrounds and Arenas.
@@ -143,9 +143,10 @@ The World of Porkcraft has some custom quality of life improvements that may com
 <br/>
 
 ## Addons
-You can download WOTLK-specific addons for Chromiecraft at [felbite.com](https://felbite.com/). Please note that addons may not work or cause errors within your game client. No support for addons is provided by Porkcraft admins.
+- WOTLK-specific addons for ChromieCraft are available at [felbite.com](https://felbite.com/).
+- **Install path:** `...\Interface\AddOns`
+- Note: Addons **may not work or could cause client errors**. Porkcraft admins do not provide support for addons.
 
-Addons are installed in the `...\Interface\AddOns` folder.
 
 <br/>
 
