@@ -1,7 +1,7 @@
 # World of Porkcraft
 This guide is designed to help you install, configure, and connect to the private World of Porkcraft: Wrath of the Lich King server. Keeping all this documentation on Discord was convenient; however, it wasn't easy for new players. Please note this is not a server that is open to the public, and you must have an account created for you by the server's administrator.
 
-Understand that you proceed at your own risk, and we takes no responsibility for errors, broken links,  misbehaving computers, or lost data.
+Understand that you proceed at your own risk. We takes no responsibility for errors, broken links,  misbehaving computers, or lost data.
 
 ## Setup
 ### Installation
