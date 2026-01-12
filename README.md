@@ -34,6 +34,7 @@ Next, we'll need to configure your client to connect to the Porkcraft server.
 2. Navigate to `...\Data\enUS\realmlist.wtf`.
 3. If you don't see `realmlist.wtf`, may need to create the file.
 4. Open `realmlist.wtf` with a text editor (like notepad.exe) and add the following:
+
     ````
     set realmlist porkchopexpress.servebeer.com
     ````
