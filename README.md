@@ -6,24 +6,24 @@ This guide is designed to help you install, configure, and connect your game cli
 <br/>
 
 ## Table of Contents
-- [Setup](#setup)
+- [Getting Started](#getting-started)
     - [Installation](#installation)
     - [Configuration](#configuration)
     - [Login](#login)
-- [Recommend Fixes](#recommended-fixes)
+- [Recommended Fixes](#recommended-fixes)
     - [HD Patch](#hd-patch)
     - [Large Address Aware (Windows)](#large-address-aware-windows)
     - [Large Address Aware (Linux)](#large-address-aware-linux)
     - [Sound Mod Fix for Naxxramas](#sound-mod-fix-for-naxxramas)
     - [Full-Screen Windowed Mode Fix](#full-screen-windowed-mode-fix)
-- [Server Configuration](#server-configuration)
+- [Server Features](#server-features)
     - [Custom Rules](#custom-rules)
     - [Bots](#bots)
     - [Auction House](#auction-house)
 
 <br/>
 
-## Setup
+## Getting Started
 ### Installation
 1. Download the [ChromieCraft 3.3.5a](https://www.chromiecraft.com/en/downloads/) client for your operating system.
 2. Extract the contents of the zip file on your computer.
@@ -93,7 +93,7 @@ SET gxMaximize "1"
 
 <br/>
 
-## Server Configuration
+## Server Features
 The World of Porkcraft has some custom quality of life improvements that may come as a surprise if you've previously played retail versions of the game.
 
 ### Custom Rules
