@@ -40,13 +40,14 @@ Next, we'll need to configure your client to connect to the Porkcraft server.
 6. Save the file and close it.
 
 ### Login
-You will login to the client using your provided username and password.
+1. Launch the `wow.exe` file
+2. Login to the client using your provided username and password.
 
 <br/>
 
 ## Recommended Fixes
 > [!IMPORTANT]
-> Do not edit files while the game is running. Fully logout and close the application before proceeding.
+> Do not edit or add files while the game is running. Fully logout and close the application before proceeding.
 
 ### HD Patch
 Would you like to upgrade the textures and models of the in-game assets? Here's how you do it:
