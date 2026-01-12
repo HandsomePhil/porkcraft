@@ -1,7 +1,7 @@
 # World of Porkcraft
 This guide is designed to help you install, configure, and connect to the private World of Porkcraft: Wrath of the Lich King server. Keeping all this documentation on Discord was convenient; however, it wasn't easy for new players. Please note this is not a server that is open to the public, and you must have an account created for you by the server's administrator.
 
-Understand that you proceed at your own risk, and we takes no responsibility for errors, broken links, or misbehaving computers.
+Understand that you proceed at your own risk, and we takes no responsibility for errors, broken links,  misbehaving computers, or lost data.
 
 ## Setup
 ### Installation
@@ -24,7 +24,7 @@ Would you like to upgrade the textures and models of the in-game assets? Here's 
 2. Open the installation folder you created for the game.
 3. Extract the contents of the zip file to your `...\Data\` folder.
 4. If you run into trouble, you can always read the `readme.txt` file included in the zip folder.
-5. Please note that if you install the HD Patch, you will need to follow the Large Address Aware instructions below.
+5. Please note that if you install the HD Patch, you will need to follow the [Large Address Aware](#large-address-aware-windows) instructions below.
 
 ### Large Address Aware (Windows)
 Experiencing crashes in large cities like Shattrath or Dalaran? Here's how to fix that:
