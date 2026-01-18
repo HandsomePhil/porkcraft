@@ -105,6 +105,7 @@ The World of Porkcraft has some custom quality of life improvements that may com
 - Instant travel via flight paths (optional and can be toggled on/off at any Flight Master)
 - No Hearthstone timers
 - Free talent respecs
+- No cost for Arena team charters
 - Shared mounts and pets between characters
 - Server restarts daily at 4:00 AM ET
 - Raids and arenas reset on Fridays at 6:00 AM ET
