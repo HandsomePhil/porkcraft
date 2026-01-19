@@ -117,8 +117,10 @@ The World of Porkcraft has some custom quality of life improvements that may com
 
 ### Bots
 - The server uses the [Playerbot Mod](https://github.com/mod-playerbots/mod-playerbots) to populate the world with bots that mimic human behavior.
-- You can invite the bots to groups and they should function similarly to real humans.
+- You can invite the bots to a group or raid and they will function similarly to real humans.
 - A full list of commands the bots accept can be found in the [Playerbots Commands Documentation](https://github.com/mod-playerbots/mod-playerbots/wiki/Playerbot-Commands) on GitHub.
+- Bots will only roll Greed on gear they can use.
+- Bots will not loot any mob if the looting for the party is set to 'Free For All'.
 - There are 2,000 bots split evenly between Alliance and Horde.
 - Raid bots have a suffix in their name that denotes their role.
     - `botnameTANK` → tank
