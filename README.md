@@ -132,8 +132,8 @@ The World of Porkcraft has some custom quality of life improvements that may com
 
 ### Auction House
 - AuctionHouseBot will populate the auction house daily with new random items.
-    - 20,000 items daily on the Horde auction house.
-    - 5,000 items daily on the Alliance auction house.
+    - 15,000 items daily on the Horde auction house.
+    - 15,000 items daily on the Alliance auction house.
     - 5,000 items daily at the neutral auction house.
 - AuctionHouseBot will purchase items listed on the auction house daily at 12:10AM ET and 2:10PM ET using the following formula:
     - Common items listed at x3 their vendor price
