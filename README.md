@@ -141,7 +141,7 @@ The World of Porkcraft has some custom quality of life improvements that may com
     - Rare items listed at x12 their vendor price
     - Epic items listed at x15 their vendor price
 - We have created a [calculator](https://handsomephil.github.io/porkcraft/calculator) to help you determine the price for your items to ensure they are purchased by the AuctionHouseBot.
-- We have also created an [addon](https://cdn.discordapp.com/attachments/1363880440938762453/1392689852507488396/aux-addon.zip?ex=6965013f&is=6963afbf&hm=fc5c8e84431dda8f76e08636a025185fbf59788e66b14346045704f947c20da7&) that will automatically list items at the appropriate price.
+- We have also created an [addon](https://discord.com/channels/331616731342700544/1363880440938762453/1392689852817870939) that will automatically list items at the appropriate price.
 
 <br/>
 
