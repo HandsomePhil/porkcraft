@@ -107,13 +107,14 @@ The World of Porkcraft has some custom quality of life improvements that may com
 - Free talent respecs
 - No cost for Arena team charters
 - Shared mounts and pets between characters
-- Server restarts daily at 4:00 AM ET
+- Server restarts daily at 4:00 AM ET, and at 4:00 PM ET on Wednesday afternoons.
 - Raids and arenas reset on Fridays at 6:00 AM ET
 - Heroic dungeons reset daily at 3:00 AM ET
 - Instant heroic dungeon and raid resets are available from the Cromie NPC located in Orgrimmar by the bank, and Dalaran by the well.
 - Free transmogs vendor NPC can be found near Cromie in Orgrimmar by the bank, and Dalaran by the well.
 - No timer on `/camp` or `/logout` commands
 - All newly created characters start with 1 gold
+
 
 ### Bots
 - The server uses the [Playerbot Mod](https://github.com/mod-playerbots/mod-playerbots) to populate the world with bots that mimic human behavior.
